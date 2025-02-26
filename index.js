@@ -98,7 +98,7 @@ async function fetchReport(data) {
     }
     // Assuming this is the first and only call for a successful response.
     const data = await response.json();
-    renderReport(data.content);
+    renderReport(data);
   } catch (err) {
     console.error(err.message);
     loadingArea.innerText =
