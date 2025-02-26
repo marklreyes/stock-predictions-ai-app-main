@@ -1,5 +1,7 @@
 # Dodgy Dave's Stock Predictions AI App
 
+Currently powered by [AI-App](https://github.com/marklreyes/AI-App) which utilizes Cloudflare Workers, OpenAI and Polygon API.
+
 Quick start:
 
 ```
